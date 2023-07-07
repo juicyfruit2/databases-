@@ -1,0 +1,7 @@
+1.Normalization, refers to the process of organizing and structuring data in a way that reduces redundancy and improves efficiency. It is a set of guidelines or rules designed to ensure that a database is designed and structured in a logical and efficient manner.
+
+2. for a table to be in the First Normal Form (1NF), it must have atomic values in each column, unique column names, and orderless rows. Meeting these conditions helps eliminate data redundancy and ensures that each cell contains a single, indivisible value
+
+3.for a table to be in the Second Normal Form (2NF), it must be in 1NF, and there should be no partial dependencies of non-key columns on the primary key. By eliminating partial dependencies, 2NF helps further eliminate redundancy and improve data integrity in the database.
+
+4.for a table to be in the Third Normal Form (3NF), it must be in 2NF, and there should be no transitive dependencies of non-key columns on the primary key or any other non-key columns. By eliminating transitive dependencies, 3NF helps further reduce redundancy and improve data integrity in the database.
